@@ -6,6 +6,8 @@
 - find / -type f -regex '.*skat\.txt$' 2> /dev/null                       
 - nmap -T4 -A -p- TARGET -oN nmap.txt
 
+hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
+
 Random points from THM
  - Popup's (<script>alert(“Hello World”)</script>) - Creates a Hello World message popup on a users browser.
  - Writing HTML (document.write) - Override the website's HTML to add your own (essentially defacing the entire page).
