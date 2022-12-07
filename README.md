@@ -9,6 +9,12 @@
 
 hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
 
+nmap
+- O - OS system check
+- sV - checking for services
+- sS - bypassing the three way handshake
+- sn - less in depth
+
 Random points from THM
  - Popup's (<script>alert(“Hello World”)</script>) - Creates a Hello World message popup on a users browser.
  - Writing HTML (document.write) - Override the website's HTML to add your own (essentially defacing the entire page).
