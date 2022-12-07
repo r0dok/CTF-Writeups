@@ -7,6 +7,7 @@
 - nmap -T4 -A -p- TARGET -oN nmap.txt
 - find / -name findme.txt 2> test.txt
 - hydra -l mark -P /usr/share/wordlists/rockyou.txt 10.10.116.4 ssh
+- Hydra -l admin -x 4:4:MLVICDX -vV sshydra.com  ssh
 
 hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
 
