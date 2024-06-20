@@ -154,9 +154,3 @@ A collection of useful commands and notes for Capture The Flag (CTF) competition
 - [HackTricks](https://book.hacktricks.xyz/): A comprehensive guide for penetration testing and CTF challenges.
 
 ---
-
-## Conclusion
-
-This guide provides essential commands and tools to help you succeed in CTF competitions. Utilize the basic and advanced commands effectively, and refer to the additional resources for further learning.
-
-Happy hacking! 🏴‍☠️
