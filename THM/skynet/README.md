@@ -42,7 +42,10 @@ hydra -l milesdyson -P log1.txt 10.10.169.141 http-post-form "/squirrelmail/src/
 
 ![Hydra attack](images/{F9B33311-DEAE-43FF-B2F0-71565B89E677}.png)
 
-![Hydra success](images/{A0EE99A0-79A0-4DE9-8875-5C4CE662D119}.png)
+![Hydra success](images/40FE1350-2ED6-4000-91CF-0A2C8FDEE093}.png)
+
+
+{40FE1350-2ED6-4000-91CF-0A2C8FDEE093}.png
 
 **Task 1:** `cyborg007haloterminator`
 
