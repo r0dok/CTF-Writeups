@@ -13,7 +13,9 @@ nmap -sS -Pn -A -p- -T5 10.10.78.77
 **How many ports are open with a port number under 1000?**  
 **Answer:** `3`
 
-![Nmap scan](images/2.webp)
+
+
+
 
 **What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)**
 
@@ -23,7 +25,7 @@ Check for MS17-010 specifically:
 nmap -Ss -Pn -p 445 10.10.78.77 --script smb-vuln-ms17-010.nse
 ```
 
-![Vulnerability confirmation](images/3.webp)
+
 
 **Answer:** `ms17-010`
 
@@ -44,6 +46,8 @@ search ms17-010
 ```
 
 ![Metasploit search](images/1.webp)
+![Nmap scan](images/2.webp)
+![Vulnerability confirmation](images/3.webp)
 
 **Find the exploitation code we will run against the machine. What is the full path of the code? (Ex: exploit/……..)** 
 
