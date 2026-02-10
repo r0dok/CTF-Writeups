@@ -10,10 +10,10 @@ Initial nmap scan:
 nmap -sS -Pn -A -p- -T5 10.10.78.77
 ```
 
-![Nmap scan](images/2.webp)
-
 **How many ports are open with a port number under 1000?**  
 **Answer:** `3`
+
+![Nmap scan](images/2.webp)
 
 **What is this machine vulnerable to? (Answer in the form of: ms??-???, ex: ms08-067)**
 
